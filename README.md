@@ -6,8 +6,8 @@
 
 ### Differences between Version 1 and Version 2
 
-- Database Integration: New version integrates PostgreSQL with Prisma ORM. Automated database migrations using Prisma Migrate are introduced to handle schema changes efficiently and reduce manual SQL scripting errors.
-- Log Management: In version 1, I used Redis for log data publishing/subscribing, which now is replaced by Kafka. Kafka is used to consume log data efficiently, and the logs are persisted in ClickHouse, which is optimized for querying large volumes of data.
+- Database Integration: New version integrates **PostgreSQL with Prisma ORM**. Automated database migrations using Prisma Migrate are introduced to handle schema changes efficiently and reduce manual SQL scripting errors.
+- Log Management: In version 1, I used Redis for log data publishing/subscribing, which now is replaced by **Kafka**. Kafka is used to consume log data efficiently, and the logs are persisted in **ClickHouse**, which is optimized for querying large volumes of data.
 - Log API Endpoint: A new API endpoint /logs/:id is added for querying logs based on deployment IDs directly from ClickHouse.
 
 ### Technologies Used
