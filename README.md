@@ -15,7 +15,7 @@
 - Backend: Node.js, Express.js
 - Containers: Docker, AWS ECS, AWS ECR
 - Storage: AWS S3
-- Databases: PostgreSQl, Prisma
+- Databases: PostgreSQL, Prisma
 - Log Collections Pipeline: WebSocket, Kafka, ClickHouse
 - Others: CI/CD, Reverse Proxy, System Design, Postman API
 
