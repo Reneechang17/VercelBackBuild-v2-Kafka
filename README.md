@@ -33,28 +33,28 @@ Services would be running:
 | `socket.io-server` | `:9002` |
 | `s3-reverse-proxy` | `:8000` |
 
-![Architecture diagram](https://github.com/Reneechang17/VercelBackBuild-v1/blob/main/system-design-pic/v1.jpg)
+![Architecture diagram](https://github.com/Reneechang17/VercelBackBuild-v2-Kafka/blob/main/system-design-pic/v2.jpg)
 
 ### API request on Postman
 
 - POST request for Project
   - Input: Project name and Github URL
   - Get: Project ID and Subdomain name
-  
-![POST request for Project](https://github.com/Reneechang17/VercelBackBuild-v1/blob/main/system-design-pic/v1.jpg)
+
+![POST request for Project](https://github.com/Reneechang17/VercelBackBuild-v2-Kafka/blob/main/Postman-test-pic/project-post.jpg)
 
 - POST request for Deploy
-  - Input: Project ID 
-  - Get: Deployment ID 
-  
-![POST request for Deploy](https://github.com/Reneechang17/VercelBackBuild-v1/blob/main/system-design-pic/v1.jpg)
+  - Input: Project ID
+  - Get: Deployment ID
+
+![POST request for Deploy](https://github.com/Reneechang17/VercelBackBuild-v2-Kafka/blob/main/Postman-test-pic/deploy-post.jpg)
 
 - Subdomain.localhost:8000
-  
-![Sccess](https://github.com/Reneechang17/VercelBackBuild-v1/blob/main/system-design-pic/v1.jpg)
+
+![Sccess](https://github.com/Reneechang17/VercelBackBuild-v2-Kafka/blob/main/Postman-test-pic/run%20on%208000.jpg)
 
 - GET request for Logs
   - logs/deploymentID
   - Get: Logs
-  
-![GET request for Logs](https://github.com/Reneechang17/VercelBackBuild-v1/blob/main/system-design-pic/v1.jpg)
+
+![GET request for Logs](https://github.com/Reneechang17/VercelBackBuild-v2-Kafka/blob/main/Postman-test-pic/logs-get.jpg)
